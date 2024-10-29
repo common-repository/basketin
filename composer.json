@@ -1,0 +1,19 @@
+{
+    "name": "basketin/woocommerce-plugin",
+    "description": "Monitoring and analyzing the shopping carts of customers, knowing the abandoned carts, and taking effective action with it.",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Basketin\\WoocommercePlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BasketIn Team",
+            "email": "team@basketin.io"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    }
+}
